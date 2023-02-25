@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Dosis', sans-serif;
+    --light-text-color: white;
+    --button-off-color: #24b8f1;
+    --accent-color: #f1c324;
+}
+
+h1 {
+    font-family: 'Leckerli One', cursive;
+}
+
+header {
+    background-color: aqua;
+}
+
+header .contacts {
+    position: center;
+    width: 1200px;
+    display: flex;
+}
+
+header .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header .menu a {
+    text-decoration: none;
+    padding: 0 5px;
+    color: var(--light-text-color);
+}
+
+header .menu a:hover {
+    color: var(--accent-color);
+}
+
+@media (min-width: 990px) {
+    
+}
+
+header banner {
+    text-align: center;
+}
+
+header banner h1 {
+    font-size: 3.5rem;
+}
+
+img {
+    display: block;
+    max-width: 250px;
+}
+
+
